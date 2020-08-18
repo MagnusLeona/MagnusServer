@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MagnusServer.iml" filepath="$PROJECT_DIR$/.idea/MagnusServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MagnusServlet.iml" filepath="$PROJECT_DIR$/MagnusServlet.iml" />
     </modules>
   </component>
 </project>
