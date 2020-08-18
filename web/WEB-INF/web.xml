@@ -22,4 +22,26 @@
         <servlet-name>postandget</servlet-name>
         <url-pattern>/index</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>welcome</servlet-name>
+        <servlet-class>com.magnus.Welcome</servlet-class>
+        <init-param>
+            <param-name>greetings</param-name>
+            <param-value>Welcome You !</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>welcome</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>login</servlet-name>
+        <servlet-class>com.magnus.CheckAuth</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/checkauth</url-pattern>
+    </servlet-mapping>
 </web-app>

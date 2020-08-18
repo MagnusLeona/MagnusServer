@@ -5,10 +5,17 @@
     <title>Title</title>
 </head>
 <body>
-    <div>
+    <div class="container">
         <div>Magnus个人网站</div>
-        <form action="/Magnus/index" method="get">
-            <input type="submit" />
+        <form action="/MagnusServlet/index" method="get">
+            <input type="text"  name="userId"/>
+            <input type="password" name="userPwd" />
+            <input type="submit" value="Get Action"/>
+        </form>
+        <form action="/MagnusServlet/index" method="post">
+            <input type="text" name="userId" />
+            <input type="password" name="userPwd" />
+            <input type="submit" value="Post Action"/>
         </form>
     </div>
 
