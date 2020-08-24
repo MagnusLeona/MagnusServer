@@ -1,4 +1,4 @@
-package com.magnus;
+package com.magnus.servlet.demo;
 
 import javax.servlet.*;
 import java.io.IOException;

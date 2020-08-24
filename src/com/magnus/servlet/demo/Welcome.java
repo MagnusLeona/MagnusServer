@@ -1,4 +1,4 @@
-package com.magnus;
+package com.magnus.servlet.demo;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -23,6 +23,5 @@ public class Welcome extends HttpServlet {
         out.write("<html><head><title>Welcome</title></head><body>");
         out.write("<div>" + this.greetings + name + "</div>");
         out.write("</body></html>");
-        out.close();
     }
 }

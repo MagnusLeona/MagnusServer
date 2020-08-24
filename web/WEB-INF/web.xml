@@ -7,7 +7,7 @@
 
     <servlet>
         <servlet-name>helloworld</servlet-name>
-        <servlet-class>com.magnus.HelloWorld</servlet-class>
+        <servlet-class>com.magnus.servlet.demo.HelloWorld</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>helloworld</servlet-name>
@@ -16,7 +16,7 @@
 
     <servlet>
         <servlet-name>postandget</servlet-name>
-        <servlet-class>com.magnus.GetOrPostServlet</servlet-class>
+        <servlet-class>com.magnus.servlet.demo.GetOrPostServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>postandget</servlet-name>
@@ -25,7 +25,7 @@
 
     <servlet>
         <servlet-name>welcome</servlet-name>
-        <servlet-class>com.magnus.Welcome</servlet-class>
+        <servlet-class>com.magnus.servlet.demo.Welcome</servlet-class>
         <init-param>
             <param-name>greetings</param-name>
             <param-value>Welcome You !</param-value>
@@ -38,10 +38,28 @@
 
     <servlet>
         <servlet-name>login</servlet-name>
-        <servlet-class>com.magnus.CheckAuth</servlet-class>
+        <servlet-class>com.magnus.servlet.demo.CheckAuth</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>login</servlet-name>
         <url-pattern>/checkauth</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>dispatcher</servlet-name>
+        <servlet-class>com.magnus.servlet.dispatcher.DispatcherDemo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dispatcher</servlet-name>
+        <url-pattern>/dispatcher</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>counter</servlet-name>
+        <servlet-class>com.magnus.servlet.counter.ClickCounter</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>counter</servlet-name>
+        <url-pattern>/counter</url-pattern>
     </servlet-mapping>
 </web-app>
