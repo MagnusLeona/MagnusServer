@@ -1,6 +1,5 @@
 package com.magnus.jdbc.utils;
 
-import javax.naming.ldap.PagedResultsControl;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;

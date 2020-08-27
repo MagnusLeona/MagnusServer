@@ -7,32 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87689d58-9f31-48cc-a7e6-fc42f4a2b98d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/demo/DeleteDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/demo/InsertDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/demo/JDBCDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/demo/QueryUserDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/demo/SelectDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/demo/UpdateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/utils/Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/servlet/counter/ClickCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/servlet/dispatcher/DispatcherDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/pages/counter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/pages/dispatcher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/17238.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/17238.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/druid_1_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/druid-1.1.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/demo/BatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/demo/DruidDatasourceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/demo/QueryForEntityDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/demo/TransactionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/query/QueryForEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/utils/DataSourceConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MagnusServlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MagnusServlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/CheckAuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/GetOrPostServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/Welcome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/magnus/CheckAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magnus/servlet/demo/CheckAuth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/magnus/GetOrPostServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magnus/servlet/demo/GetOrPostServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/magnus/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magnus/servlet/demo/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/magnus/Welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magnus/servlet/demo/Welcome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resource/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/magnus/jdbc/utils/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/utils/Connector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +64,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30927834" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Application.QueryUserDemo">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\17238\Desktop\Magnus\MagnusServer\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DruidDatasourceDemo">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.26" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
@@ -147,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.magnus.jdbc.demo.DeleteDemo" />
+    <configuration name="BatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.magnus.jdbc.demo.BatchDemo" />
       <module name="MagnusServlet" />
       <extension name="coverage">
         <pattern>
@@ -160,8 +152,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.magnus.jdbc.demo.InsertDemo" />
+    <configuration name="DruidDatasourceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.magnus.jdbc.demo.DruidDatasourceDemo" />
+      <module name="MagnusServlet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.magnus.jdbc.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryForEntityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.magnus.jdbc.demo.QueryForEntityDemo" />
       <module name="MagnusServlet" />
       <extension name="coverage">
         <pattern>
@@ -186,21 +191,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.magnus.jdbc.demo.SelectDemo" />
-      <module name="MagnusServlet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.magnus.jdbc.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UpdateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.magnus.jdbc.demo.UpdateDemo" />
+    <configuration name="TransactionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.magnus.jdbc.demo.TransactionDemo" />
       <module name="MagnusServlet" />
       <extension name="coverage">
         <pattern>
@@ -313,20 +305,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Smart Tomcat.Unnamed" />
-      <item itemvalue="Application.SelectDemo" />
-      <item itemvalue="Application.InsertDemo" />
-      <item itemvalue="Application.UpdateDemo" />
-      <item itemvalue="Application.DeleteDemo" />
       <item itemvalue="Application.QueryUserDemo" />
+      <item itemvalue="Application.QueryForEntityDemo" />
+      <item itemvalue="Smart Tomcat.Unnamed" />
+      <item itemvalue="Application.TransactionDemo" />
+      <item itemvalue="Application.BatchDemo" />
+      <item itemvalue="Application.DruidDatasourceDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DruidDatasourceDemo" />
+        <item itemvalue="Application.BatchDemo" />
+        <item itemvalue="Application.TransactionDemo" />
+        <item itemvalue="Application.QueryForEntityDemo" />
         <item itemvalue="Application.QueryUserDemo" />
-        <item itemvalue="Application.InsertDemo" />
-        <item itemvalue="Application.DeleteDemo" />
-        <item itemvalue="Application.UpdateDemo" />
-        <item itemvalue="Application.SelectDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -393,22 +385,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="127" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598084996267" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1598272144119">
+    <state width="746" height="192" key="GridCell.Tab.0.bottom" timestamp="1598492466577">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598272144119" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1598272144119">
+    <state width="746" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598492466577" />
+    <state width="746" height="192" key="GridCell.Tab.0.center" timestamp="1598492466577">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598272144119" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1598272144119">
+    <state width="746" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598492466577" />
+    <state width="746" height="192" key="GridCell.Tab.0.left" timestamp="1598492466577">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598272144119" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1598272144119">
+    <state width="746" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598492466577" />
+    <state width="746" height="192" key="GridCell.Tab.0.right" timestamp="1598492466577">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598272144119" />
+    <state width="746" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598492466577" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1598272144119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
