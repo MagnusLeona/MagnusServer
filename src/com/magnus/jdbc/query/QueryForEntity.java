@@ -2,6 +2,7 @@ package com.magnus.jdbc.query;
 
 import com.magnus.jdbc.entity.User;
 import com.magnus.jdbc.utils.Connector;
+import com.magnus.jdbc.utils.DataSourceConnector;
 
 import java.lang.reflect.Field;
 import java.sql.*;
@@ -11,7 +12,9 @@ public class QueryForEntity {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         try {
-            connection = Connector.getConnectionFromDriver();
+//            connection = Connector.getConnectionFromDriver();
+            //德鲁伊数据库连接池获取连接
+            connection = DataSourceConnector.INSTANCE.getConnection();
             preparedStatement = connection.prepareStatement(sql);
             for(int i = 0; i < args.length; i ++){
                 preparedStatement.setObject(i + 1, args[i]);
