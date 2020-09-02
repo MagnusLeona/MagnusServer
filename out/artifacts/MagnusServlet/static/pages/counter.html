@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .button {
+            width: 500px;
+            height: 100px;
+            background-color: #ce00ee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+
+         .button2 {
+            width: 500px;
+            height: 100px;
+            background-color: #0e00ee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+    </style>
+    <script>
+        function clicked() {
+            console.log("clicked")
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("GET","/MagnusServlet/counter",false);
+            xmlhttp.send();
+            document.getElementById("clickGet").innerHTML = xmlhttp.responseText;
+        }
+
+        function clickedPost() {
+            console.log("clickedPost")
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                document.getElementById("clickPost").innerHTML = xmlhttp.responseText;
+            }
+            xmlhttp.open("Post","/MagnusServlet/counter",false);
+            xmlhttp.send();
+        }
+    </script>
+</head>
+<body>
+    <div>
+        这个Get方法按钮被点击了<span id="clickGet">0</span>次
+    </div>
+    <div class="button" onclick="clicked()">Get点击加1</div>
+    <div>
+        这个Post方法按钮被点击了<span id="clickPost">0</span>次
+    </div>
+    <div class="button2" onclick="clickedPost()">Post点击加1</div>
+
+</body>
+</html>

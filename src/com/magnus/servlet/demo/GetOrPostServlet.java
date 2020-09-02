@@ -1,5 +1,6 @@
 package com.magnus.servlet.demo;
 
+import javax.annotation.PostConstruct;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -8,6 +9,12 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 public class GetOrPostServlet extends HttpServlet {
+
+    @PostConstruct
+    public void somePostMethod() {
+        System.out.println("PostConstruct");
+    }
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("This is Post Action");
