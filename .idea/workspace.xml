@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="MagnusServlet" />
+      <artifact name="MagnusServlet:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="BranchesTreeState">
@@ -25,28 +25,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87689d58-9f31-48cc-a7e6-fc42f4a2b98d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/servlet/annotation/ServletDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/servlet/session/CheckCookie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/servlet/session/CheckSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/servlet/session/LoginSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/servlet/session/ThirdStepCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magnus/servlet/session/UserCookie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/pages/cookielogin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/pages/sessionlogin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/pages/testcookie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MagnusServlet_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/MagnusServlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/query/QueryForString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/magnus/listener/ServletContextListenerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/script/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MagnusServlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/MagnusServlet_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagnusServlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MagnusServlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.annotation.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MagnusServlet_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/demo/BatchDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/demo/BatchDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/servlet/demo/GetOrPostServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/servlet/demo/GetOrPostServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/magnus/servlet/demo/GetOrPostServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magnus/servlet/demo/GetOrPostServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/jdbc/demo/BatchDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/jdbc/demo/DeleteDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/jdbc/demo/DruidDatasourceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/jdbc/demo/InsertDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/jdbc/demo/JDBCDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/jdbc/demo/QueryForEntityDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/jdbc/demo/QueryUserDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/jdbc/demo/SelectDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/jdbc/demo/TransactionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/jdbc/demo/UpdateDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/jdbc/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/jdbc/query/QueryForEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/jdbc/utils/Connector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/jdbc/utils/DataSourceConnector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/servlet/annotation/ServletDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/servlet/counter/ClickCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/servlet/demo/CheckAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/servlet/demo/GetOrPostServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/servlet/demo/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/servlet/demo/Welcome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/servlet/dispatcher/DispatcherDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/servlet/session/CheckCookie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/servlet/session/CheckSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/servlet/session/LoginSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/servlet/session/ThirdStepCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/com/magnus/servlet/session/UserCookie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/lib/druid-1.1.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/lib/mysql-connector-java-8.0.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/static/pages/cookielogin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/static/pages/counter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/static/pages/dispatcher.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/static/pages/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/static/pages/logina.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/static/pages/sessionlogin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/static/pages/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/static/pages/testcookie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagnusServlet/static/pages/welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/demo/BatchDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/demo/DeleteDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/demo/DruidDatasourceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/demo/InsertDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/demo/JDBCDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/demo/QueryForEntityDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/demo/QueryUserDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/demo/SelectDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/demo/TransactionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/demo/UpdateDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/query/QueryForEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/utils/Connector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/jdbc/utils/DataSourceConnector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/servlet/annotation/ServletDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/servlet/counter/ClickCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/servlet/demo/CheckAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/servlet/demo/GetOrPostServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/servlet/demo/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/servlet/demo/Welcome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/servlet/dispatcher/DispatcherDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/servlet/session/CheckCookie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/servlet/session/CheckSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/servlet/session/LoginSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/servlet/session/ThirdStepCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/com/magnus/servlet/session/UserCookie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagnusServlet/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/magnus/jdbc/utils/DataSourceConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magnus/jdbc/utils/DataSourceConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/pages/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/pages/success.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +111,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
@@ -92,7 +147,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Tomcat/webapps/ROOT" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30927834" />
@@ -105,19 +160,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.37">
-    <configuration name="BatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.magnus.jdbc.demo.BatchDemo" />
-      <module name="MagnusServlet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.magnus.jdbc.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DruidDatasourceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.magnus.jdbc.demo.DruidDatasourceDemo" />
       <module name="MagnusServlet" />
@@ -131,62 +173,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.magnus.jdbc.demo.InsertDemo" />
-      <module name="MagnusServlet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryForEntityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.magnus.jdbc.demo.QueryForEntityDemo" />
-      <module name="MagnusServlet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.magnus.jdbc.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TransactionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.magnus.jdbc.demo.TransactionDemo" />
-      <module name="MagnusServlet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.magnus.jdbc.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/MagnusServlet/" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="MagnusServlet">
+        <artifact name="MagnusServlet:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/MagnusServlet" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_37_MagnusServer" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_37_MagnusServer_3" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -243,7 +242,9 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="false" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="MagnusServlet:war exploded" />
+        </option>
       </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
@@ -310,20 +311,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BatchDemo" />
       <item itemvalue="Application.DruidDatasourceDemo" />
-      <item itemvalue="Application.InsertDemo" />
-      <item itemvalue="Application.QueryForEntityDemo" />
-      <item itemvalue="Application.TransactionDemo" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BatchDemo" />
-        <item itemvalue="Application.InsertDemo" />
         <item itemvalue="Application.DruidDatasourceDemo" />
-        <item itemvalue="Application.TransactionDemo" />
-        <item itemvalue="Application.QueryForEntityDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -368,6 +361,8 @@
       <workItem from="1599010136492" duration="132000" />
       <workItem from="1599010417980" duration="59000" />
       <workItem from="1599010495809" duration="1471000" />
+      <workItem from="1599041117880" duration="8610000" />
+      <workItem from="1599049760754" duration="231000" />
     </task>
     <servers />
   </component>
@@ -394,89 +389,109 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1598270264385" />
-    <state x="537" y="242" key="#BuildArtifactsBeforeRunChooser" timestamp="1599009095255">
+    <state x="537" y="242" key="#BuildArtifactsBeforeRunChooser" timestamp="1599049677814">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="537" y="242" key="#BuildArtifactsBeforeRunChooser/0.0.1463.874@0.0.1463.874" timestamp="1599009095255" />
-    <state x="212" y="12" key="#Project_Structure" timestamp="1599009156750">
+    <state x="537" y="242" key="#BuildArtifactsBeforeRunChooser/0.0.1463.874@0.0.1463.874" timestamp="1599049677814" />
+    <state x="212" y="12" key="#Project_Structure" timestamp="1599048918709">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="212" y="12" key="#Project_Structure/0.0.1463.874@0.0.1463.874" timestamp="1599009156750" />
+    <state x="212" y="12" key="#Project_Structure/0.0.1463.874@0.0.1463.874" timestamp="1599048918709" />
     <state x="532" y="343" key="#Tomcat_Server" timestamp="1598980046514">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="532" y="343" key="#Tomcat_Server/0.0.1463.874@0.0.1463.874" timestamp="1598980046514" />
-    <state x="212" y="0" width="1089" height="874" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599012846937">
+    <state x="212" y="0" width="1089" height="874" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599049680428">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="212" y="0" width="1089" height="874" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1463.874@0.0.1463.874" timestamp="1599012846937" />
+    <state x="212" y="0" width="1089" height="874" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1463.874@0.0.1463.874" timestamp="1599049680428" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597745291137" />
-    <state x="547" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1598871470805">
+    <state x="547" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1599041601501">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="547" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1463.874@0.0.1463.874" timestamp="1598871470805" />
+    <state x="547" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1463.874@0.0.1463.874" timestamp="1599041601501" />
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598269767423" />
-    <state x="523" y="135" key="FileChooserDialogImpl" timestamp="1599011004078">
+    <state x="572" y="372" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1599048340195">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="523" y="135" key="FileChooserDialogImpl/0.0.1463.874@0.0.1463.874" timestamp="1599011004078" />
+    <state x="572" y="372" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1463.874@0.0.1463.874" timestamp="1599048340195" />
+    <state x="523" y="135" key="FileChooserDialogImpl" timestamp="1599048450881">
+      <screen x="0" y="0" width="1463" height="874" />
+    </state>
+    <state x="523" y="135" key="FileChooserDialogImpl/0.0.1463.874@0.0.1463.874" timestamp="1599048450881" />
     <state x="549" y="127" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598084996267" />
-    <state width="1048" height="227" key="GridCell.Tab.0.bottom" timestamp="1599012738744">
+    <state width="1048" height="332" key="GridCell.Tab.0.bottom" timestamp="1599049991649">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1048" height="227" key="GridCell.Tab.0.bottom/0.0.1463.874@0.0.1463.874" timestamp="1599012738744" />
+    <state width="1048" height="332" key="GridCell.Tab.0.bottom/0.0.1463.874@0.0.1463.874" timestamp="1599049991649" />
     <state width="746" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598492466577" />
-    <state width="1048" height="227" key="GridCell.Tab.0.center" timestamp="1599012738744">
+    <state width="1048" height="332" key="GridCell.Tab.0.center" timestamp="1599049991649">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1048" height="227" key="GridCell.Tab.0.center/0.0.1463.874@0.0.1463.874" timestamp="1599012738744" />
+    <state width="1048" height="332" key="GridCell.Tab.0.center/0.0.1463.874@0.0.1463.874" timestamp="1599049991649" />
     <state width="746" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598492466577" />
-    <state width="1048" height="227" key="GridCell.Tab.0.left" timestamp="1599012738744">
+    <state width="1048" height="332" key="GridCell.Tab.0.left" timestamp="1599049991649">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1048" height="227" key="GridCell.Tab.0.left/0.0.1463.874@0.0.1463.874" timestamp="1599012738744" />
+    <state width="1048" height="332" key="GridCell.Tab.0.left/0.0.1463.874@0.0.1463.874" timestamp="1599049991649" />
     <state width="746" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598492466577" />
-    <state width="1048" height="227" key="GridCell.Tab.0.right" timestamp="1599012738744">
+    <state width="1048" height="332" key="GridCell.Tab.0.right" timestamp="1599049991649">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1048" height="227" key="GridCell.Tab.0.right/0.0.1463.874@0.0.1463.874" timestamp="1599012738744" />
+    <state width="1048" height="332" key="GridCell.Tab.0.right/0.0.1463.874@0.0.1463.874" timestamp="1599049991649" />
     <state width="746" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598492466577" />
-    <state width="1048" height="227" key="GridCell.Tab.1.bottom" timestamp="1599012738571">
+    <state width="1048" height="332" key="GridCell.Tab.1.bottom" timestamp="1599049991649">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1048" height="227" key="GridCell.Tab.1.bottom/0.0.1463.874@0.0.1463.874" timestamp="1599012738571" />
+    <state width="1048" height="332" key="GridCell.Tab.1.bottom/0.0.1463.874@0.0.1463.874" timestamp="1599049991649" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598272144119" />
-    <state width="1048" height="227" key="GridCell.Tab.1.center" timestamp="1599012738571">
+    <state width="1048" height="332" key="GridCell.Tab.1.center" timestamp="1599049991649">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1048" height="227" key="GridCell.Tab.1.center/0.0.1463.874@0.0.1463.874" timestamp="1599012738571" />
+    <state width="1048" height="332" key="GridCell.Tab.1.center/0.0.1463.874@0.0.1463.874" timestamp="1599049991649" />
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598272144119" />
-    <state width="1048" height="227" key="GridCell.Tab.1.left" timestamp="1599012738571">
+    <state width="1048" height="332" key="GridCell.Tab.1.left" timestamp="1599049991649">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1048" height="227" key="GridCell.Tab.1.left/0.0.1463.874@0.0.1463.874" timestamp="1599012738571" />
+    <state width="1048" height="332" key="GridCell.Tab.1.left/0.0.1463.874@0.0.1463.874" timestamp="1599049991649" />
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598272144119" />
-    <state width="1048" height="227" key="GridCell.Tab.1.right" timestamp="1599012738571">
+    <state width="1048" height="332" key="GridCell.Tab.1.right" timestamp="1599049991649">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1048" height="227" key="GridCell.Tab.1.right/0.0.1463.874@0.0.1463.874" timestamp="1599012738571" />
+    <state width="1048" height="332" key="GridCell.Tab.1.right/0.0.1463.874@0.0.1463.874" timestamp="1599049991649" />
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598272144119" />
-    <state width="1048" height="227" key="GridCell.Tab.2.bottom" timestamp="1599012738571">
+    <state width="1048" height="332" key="GridCell.Tab.2.bottom" timestamp="1599049991649">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1048" height="227" key="GridCell.Tab.2.bottom/0.0.1463.874@0.0.1463.874" timestamp="1599012738571" />
-    <state width="1048" height="227" key="GridCell.Tab.2.center" timestamp="1599012738571">
+    <state width="1048" height="332" key="GridCell.Tab.2.bottom/0.0.1463.874@0.0.1463.874" timestamp="1599049991649" />
+    <state width="1048" height="332" key="GridCell.Tab.2.center" timestamp="1599049991649">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1048" height="227" key="GridCell.Tab.2.center/0.0.1463.874@0.0.1463.874" timestamp="1599012738571" />
-    <state width="1048" height="227" key="GridCell.Tab.2.left" timestamp="1599012738571">
+    <state width="1048" height="332" key="GridCell.Tab.2.center/0.0.1463.874@0.0.1463.874" timestamp="1599049991649" />
+    <state width="1048" height="332" key="GridCell.Tab.2.left" timestamp="1599049991649">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1048" height="227" key="GridCell.Tab.2.left/0.0.1463.874@0.0.1463.874" timestamp="1599012738571" />
-    <state width="1048" height="227" key="GridCell.Tab.2.right" timestamp="1599012738571">
+    <state width="1048" height="332" key="GridCell.Tab.2.left/0.0.1463.874@0.0.1463.874" timestamp="1599049991649" />
+    <state width="1048" height="332" key="GridCell.Tab.2.right" timestamp="1599049991649">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1048" height="227" key="GridCell.Tab.2.right/0.0.1463.874@0.0.1463.874" timestamp="1599012738571" />
+    <state width="1048" height="332" key="GridCell.Tab.2.right/0.0.1463.874@0.0.1463.874" timestamp="1599049991649" />
+    <state width="1048" height="332" key="GridCell.Tab.3.bottom" timestamp="1599045953301">
+      <screen x="0" y="0" width="1463" height="874" />
+    </state>
+    <state width="1048" height="332" key="GridCell.Tab.3.bottom/0.0.1463.874@0.0.1463.874" timestamp="1599045953301" />
+    <state width="1048" height="332" key="GridCell.Tab.3.center" timestamp="1599045953301">
+      <screen x="0" y="0" width="1463" height="874" />
+    </state>
+    <state width="1048" height="332" key="GridCell.Tab.3.center/0.0.1463.874@0.0.1463.874" timestamp="1599045953301" />
+    <state width="1048" height="332" key="GridCell.Tab.3.left" timestamp="1599045953301">
+      <screen x="0" y="0" width="1463" height="874" />
+    </state>
+    <state width="1048" height="332" key="GridCell.Tab.3.left/0.0.1463.874@0.0.1463.874" timestamp="1599045953301" />
+    <state width="1048" height="332" key="GridCell.Tab.3.right" timestamp="1599045953301">
+      <screen x="0" y="0" width="1463" height="874" />
+    </state>
+    <state width="1048" height="332" key="GridCell.Tab.3.right/0.0.1463.874@0.0.1463.874" timestamp="1599045953301" />
     <state x="312" y="180" key="IDE.errors.dialog" timestamp="1598979426912">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
@@ -486,15 +501,44 @@
     </state>
     <state x="389" y="116" width="723" height="594" key="NewModule_or_Project.wizard/0.0.1463.874@0.0.1463.874" timestamp="1599011037082" />
     <state x="408" y="109" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1598084901291" />
-    <state x="280" y="24" key="SettingsEditor" timestamp="1599012833497">
+    <state x="280" y="23" key="SettingsEditor" timestamp="1599049151372">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="280" y="24" key="SettingsEditor/0.0.1463.874@0.0.1463.874" timestamp="1599012833497" />
+    <state x="280" y="23" key="SettingsEditor/0.0.1463.874@0.0.1463.874" timestamp="1599049151372" />
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598263785791" />
+    <state x="257" y="173" width="948" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1599047256063">
+      <screen x="0" y="0" width="1463" height="874" />
+    </state>
+    <state x="257" y="173" width="948" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1463.874@0.0.1463.874" timestamp="1599047256063" />
     <state x="411" y="154" width="672" height="720" key="search.everywhere.popup" timestamp="1598891221120">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="411" y="154" width="672" height="720" key="search.everywhere.popup/0.0.1463.874@0.0.1463.874" timestamp="1598891221120" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598085688486" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/magnus/listener/ServletContextListenerDemo.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/magnus/listener/ServletContextListenerDemo.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/magnus/listener/ServletContextListenerDemo.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

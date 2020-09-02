@@ -17,6 +17,8 @@ public enum  DataSourceConnector {
 
     static {
         InputStream inputStream = ClassLoader.getSystemClassLoader().getResourceAsStream("jdbc.properties");
+//        DataSourceConnector.class.getClassLoader().getResource("jdbc.properties").getPath();
+        System.out.println(DataSourceConnector.class.getClassLoader().getResource("jdbc.properties").getPath());
         Properties properties = new Properties();
         try {
             properties.load(inputStream);

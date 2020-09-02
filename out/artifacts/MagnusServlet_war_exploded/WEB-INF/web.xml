@@ -116,4 +116,8 @@
         <servlet-name>servletdemo</servlet-name>
         <url-pattern>/servletanno</url-pattern>
     </servlet-mapping>
+
+    <listener>
+        <listener-class>com.magnus.listener.ServletContextListenerDemo</listener-class>
+    </listener>
 </web-app>
